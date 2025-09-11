@@ -11,7 +11,7 @@ const Upperbanner = () => {
             </div>
             <div className="flex justify-end gap-6">
                 <img src="https://i.ibb.co/cKCC02YG/pabna-university-of-science-and-technology-275200.png" alt="University Logo" className="h-12 md:h-20" />
-                <img src="https://ibb.co.com/vvV3M7nk" alt="IEEE" className="h-12 md:h-20" />
+                <img src="https://i.ibb.co.com/zHQXtyvZ/IEEE-LOGO.png" alt="IEEE" className="h-12 md:h-20" />
             </div>
         </div>
     );

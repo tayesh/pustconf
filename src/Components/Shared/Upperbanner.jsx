@@ -1,17 +1,34 @@
 const Upperbanner = () => {
     return (
-        <div className="mx-20 my-3 mb-6 flex justify-between">
-            <div className="flex items-center gap-3">
-                <img src="https://i.ibb.co/cKCC02YG/pabna-university-of-science-and-technology-275200.png" alt="University Logo" className="h-12 md:h-20" />
-                <div>
-                    <p className="text-lg">ICERFEST-2026</p>
-                    <p className="text-md uppercase">INTERNATIONAL CONFERENCE On <br />
-                        Emerging Research Frontiers in Engineering, Science and Technology 2026</p>
+        <div className="lg:mx-20 my-3 lg:py-0 py-5 mb-6 flex lg:flex-row flex-col justify-between gap-y-5">
+            {/* Left side: Title and image */}
+            <div className="flex lg:flex-row flex-col lg:items-end items-center lg:text-start text-center gap-4">
+                <img
+                    src="https://i.ibb.co/PZW5zfYZ/Untitled-2h.png"
+                    alt="University Logo"
+                    className="lg:w-40 w-64"
+                />
+                <div className="flex flex-col justify-end">
+                    <p className="lg:text-lg lg:block hidden text-2xl">ICERFEST-2026</p>
+                    <p className="lg:text-lg font-medium text-3xl sansation-bold leading-snug">
+                        International Conference On <br />
+                        Emerging Research Frontiers in Engineering, Science and Technology 2026
+                    </p>
                 </div>
             </div>
-            <div className="flex justify-end gap-6">
-                <img src="https://i.ibb.co/cKCC02YG/pabna-university-of-science-and-technology-275200.png" alt="University Logo" className="h-12 md:h-20" />
-                <img src="https://i.ibb.co.com/zHQXtyvZ/IEEE-LOGO.png" alt="IEEE" className="h-12 md:h-20" />
+
+            {/* Right side: Partner logos */}
+            <div className="flex items-end lg:mt-0 mt-5 justify-center pb-0 lg:justify-end gap-6">
+                <img
+                    src="https://i.ibb.co/cKCC02YG/pabna-university-of-science-and-technology-275200.png"
+                    alt="University Logo"
+                    className="w-16"
+                />
+                <img
+                    src="https://i.ibb.co/RkYRHV7d/308202629-407839098180041-5329988136968191750-n.jpg"
+                    alt="IEEE"
+                    className="w-32"
+                />
             </div>
         </div>
     );

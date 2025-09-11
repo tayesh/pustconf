@@ -124,7 +124,7 @@ const TouristSpot = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.3 }}
                     variants={cardVariants}
-                    className={`border-r-8 border-[#923330] shadow-[5px_5px_10px] shadow-slate-600 p-5 my-5 lg:grid lg:grid-cols-3 lg:gap-5`}
+                    className={`border-r-8 border-[#923330] rounded-tl-2xl rounded-bl-2xl shadow-[5px_5px_10px] shadow-slate-600 p-3 lg:p-5 my-5 lg:grid lg:grid-cols-3 lg:gap-5`}
                 >
                     {/* touristSpot Images */}
                     <div className="grid grid-cols-2 grid-rows-2 gap-2 rounded-3xl h-[300px] sm:h-[400px] lg:h-full col-span-2 order-1 lg:order-none">
@@ -145,13 +145,13 @@ const TouristSpot = () => {
 
                     {/* touristSpot Info and Links */}
                     <motion.div 
-                        className="flex flex-col justify-between gap-5 order-2 lg:order-none"
+                        className="flex flex-col justify-between lg:gap-5 gap-2 order-2 lg:order-none"
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.3, duration: 0.5 }}
                     >
-                        <div className="space-y-5 flex flex-col my-5 lg:my-5 items-start lg:items-end">
+                        <div className="lg:space-y-5 space-y-1 flex flex-col my-2 lg:my-5 items-start lg:items-end">
                             <h2 className="text-2xl text-[#923330] sm:text-3xl text-end font-bold tracking-wider lg:text-4xl">
                                 {touristSpot.name}
                             </h2>

@@ -22,7 +22,7 @@ const DownloadTemplate = () => {
                             href="https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn"
                             className="btn btn-wide bg-[#923330] hover:bg-[#7a2a28] text-white border-none"
                         >
-                            Download Now
+                            Download
                         </a>
                     </div>
                 </motion.div>
@@ -42,7 +42,7 @@ const DownloadTemplate = () => {
                             href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
                             className="btn btn-wide bg-[#923330] hover:bg-[#7a2a28] text-white border-none"
                         >
-                            Download Now
+                            Download
                         </a>
                     </div>
                 </motion.div>

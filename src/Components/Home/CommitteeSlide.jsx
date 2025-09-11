@@ -320,12 +320,10 @@ const CommitteeSlide = () => {
                         <div className="  rounded-xl shadow-lg overflow-hidden h-80 flex flex-col transition-transform transform hover:scale-105 duration-300">
                             <div className=" overflow-hidden">
                                 <img
-                                    src={member.image}
+                                    src={member?.image}
                                     alt={member.name}
                                     className="w-full h-full object-cover"
-                                    onError={(e) => {
-                                        e.target.src = 'https://via.placeholder.com/150?text=No+Image';
-                                    }}
+                                    
                                 />
                             </div>
                             <div className="p-4 flex-grow text-center">

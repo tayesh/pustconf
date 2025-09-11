@@ -132,14 +132,14 @@ const Navbar = () => {
 
     return (
         <motion.div
-            className="sticky top-0 z-50"
+            className="sticky top-0 z-[100]"
             initial="notScrolled"
             animate={isScrolled ? "scrolled" : "notScrolled"}
             variants={navbarVariants}
             transition={{ duration: 0.3, ease: "easeInOut" }}
         >
             <div className="container mx-auto px-4 lg:px-6">
-                <div className="navbar flex justify-center px-16">
+                <div className="navbar flex lg:justify-center lg:px-16">
                     
 
                     {/* Desktop Navigation */}
@@ -181,11 +181,12 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile Navigation Button */}
-                    <div className="lg:hidden">
+                    <div className="lg:hidden ">
                         <motion.button
                             className="btn btn-ghost btn-circle"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             whileTap={{ scale: 0.9 }}
+                            aria-label="Open navigation menu"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -252,6 +253,7 @@ const Navbar = () => {
                 </div>
             </div>
         </motion.div>
+        
     );
 };
 

@@ -52,7 +52,7 @@ const Acommodation = () => {
         <div className="lg:px-32 px-4 space-y-10 ">
             <h2 className='text-4xl font-bold my-4 text-[#923330]'>Nearby Accomodations</h2>
             {resorts.map((resort, index1) => (
-                <div key={index1} className={`border-r-8 border-[#923330] shadow-[5px_5px_10px] shadow-slate-600  p-5 my-5  lg:grid lg:grid-cols-3 lg:gap-5`}>
+                <div key={index1} className={`border-r-8 border-[#923330] rounded-tl-2xl rounded-bl-2xl shadow-[5px_5px_10px] shadow-slate-600  lg:p-5 p-3 my-5  lg:grid lg:grid-cols-3 lg:gap-5`}>
                     {/* Resort Images */}
                     <div className="grid grid-cols-2 grid-rows-2 gap-2 rounded-3xl h-[300px] sm:h-[400px] lg:h-full col-span-2 order-1 lg:order-none">
                         {resort.images.map((item, index) => (
@@ -66,8 +66,8 @@ const Acommodation = () => {
                     </div>
 
                     {/* Resort Info and Links */}
-                    <div className="flex flex-col justify-between gap-5 order-2 lg:order-none">
-                        <div className="space-y-5 flex flex-col items-end">
+                    <div className="flex flex-col justify-between gap-5 lg:pt-0 pt-2 order-2 lg:order-none">
+                        <div className="lg:space-y-5 space-y-2 flex flex-col items-end">
                             <h2 className="text-2xl sm:text-3xl lg:text-4xl">{resort.name}</h2>
                             <p className="text-lg text-end sm:text-xl">{resort.address}</p>
                             {resort.website && (

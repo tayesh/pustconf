@@ -22,6 +22,7 @@ import TouristSpot from './Components/Others/TouristSpot';
 import Accomodation from './Components/Others/Accomodation';
 import Committees from './Components/Committees/Committees';
 import Tracks from './Components/Home/Tracks';
+import Scopes from './Components/Scopes/Scopes';
 
 const router = createBrowserRouter([
   {
@@ -71,7 +72,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/scopes",
-        element:<Tracks></Tracks>
+        element:<Scopes></Scopes>
       },
       {
         path:"/accomodation",

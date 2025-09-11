@@ -5,7 +5,7 @@ const RegistrationTable = () => {
     const lightBg = '#f8f1f1';
 
     return (
-        <div className='m-16'>
+        <div className='lg:m-16 my-10 px-4'>
             <div className="mb-10 text-center">
                 <h1 className="text-4xl font-bold mb-2" style={{ color: primaryColor }}>REGISTRATION</h1>
                 <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: primaryColor }}></div>
@@ -14,7 +14,7 @@ const RegistrationTable = () => {
                 </p>
             </div>
             <div className="overflow-x-auto">
-                <table className="md:min-w-full border-collapse">
+                <table className="md:min-w-full border-collapse  lg:text-lg text-xs">
                     <thead>
                         <tr style={{ backgroundColor: primaryColor }} className="text-white">
                             <th className="py-3 px-4 text-left font-bold border" rowSpan="2">Category</th>
@@ -71,7 +71,7 @@ const RegistrationTable = () => {
                     </tbody>
                 </table>
 
-                <div className="mt-4 ml-10 text-lg text-gray-600">
+                <div className="mt-4 lg:ml-10 ml-5 text-lg text-gray-600">
                     <p>• One registration covers one paper. For additional paper, 50$ (for local authors 2000 BDT) will be added to registration fees listed.</p>
                 </div>
             </div>

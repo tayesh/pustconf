@@ -29,10 +29,10 @@ const Schedule = () => {
             <Outlet /> */}
 
             <div className="flex flex-col items-center justify-center my-20">
-                <h3 className="text-5xl font-bold text-[#923330] mb-4">
-                    Will Be Announced...
+                <h3 className="text-5xl text-center my-10 pb-5 font-bold text-[#923330] mb-4">
+                    Will Be Announced ...
                 </h3>
-                <div className="w-24 h-1 bg-[#923330] rounded-full"></div>
+                <div className="w-[50%] h-1 bg-[#923330] rounded-full"></div>
             </div>
         </div>
     );

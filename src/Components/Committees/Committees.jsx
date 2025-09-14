@@ -360,8 +360,8 @@ const Committees = () => {
             role: "Publication Secretary",
             members: [
                 {
-                    name: "Md. Sarwar Hosain",
-                    position: "ICE, PUST",
+                    name: "Dr. Md. Rashedul Islam",
+                    position: "EECE, PUST",
                     image: "https://www.pust.ac.bd/includes/images/teachers/20230731_094105[1].jpg?key=123"
                 }
             ]

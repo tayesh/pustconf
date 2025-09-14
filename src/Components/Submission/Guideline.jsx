@@ -70,6 +70,14 @@ const Guideline = () => {
                     </ul>
                 </div>
             </div>
+            <div className="text-xl text-center space-y-5 p-[10%]">
+                <h2>This conference uses Microsoft CMT for the submission and review process.</h2>
+                <p>
+                    The <span>Microsoft CMT</span> service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+                </p>
+
+            </div>
+
 
             {/* Animation styles */}
             <style jsx>{`

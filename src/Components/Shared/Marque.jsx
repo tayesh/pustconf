@@ -22,7 +22,7 @@ const Marque = () => {
     ];
 
     return (
-        <div className="py-4 px-4 bg-white shadow-lg border-b border-gray-200 overflow-hidden">
+        <div className="py-4  bg-white shadow-lg border-b border-gray-200 overflow-hidden">
             <Marquee
                 autoFill={true}
                 gradient={true}

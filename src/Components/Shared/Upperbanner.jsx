@@ -1,10 +1,10 @@
 const Upperbanner = () => {
     return (
-        <div className="lg:px-20   bg-gradient-to-r from-[#923330bb] to-[#92333003] lg:py-5 py-5 flex lg:flex-row flex-col justify-between gap-y-5">
+        <div className="lg:px-20   bg-gradient-to-l from-[#9233306d] via-[#92333003] to-[#c929246d] lg:py-5 py-5 flex lg:flex-row flex-col justify-between gap-y-5">
             {/* Left side: Title and image */}
             <div className="flex lg:flex-row flex-col lg:items-center items-center lg:text-start text-center gap-4">
                 <img
-                    src="https://i.ibb.co.com/4Zh7RysM/icerfest.png"
+                    src="https://i.ibb.co.com/HpqQy3wJ/icerfest2.png"
                     alt="University Logo"
                     className="lg:w-32 w-64 rounded-full border-white border-2"
                 />

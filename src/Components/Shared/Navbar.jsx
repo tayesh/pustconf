@@ -132,7 +132,7 @@ const Navbar = () => {
 
     return (
         <motion.div
-            className="sticky top-0 z-[100] bg-gradient-to-l from-[#923330d7] to-[#92333028]"
+            className="sticky top-0 z-[100] bg-gradient-to-l from-[#923330c3] via-[#92333003] to-[#911814bb]"
             initial="notScrolled"
             animate={isScrolled ? "scrolled" : "notScrolled"}
             variants={navbarVariants}

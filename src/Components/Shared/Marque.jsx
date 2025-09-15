@@ -29,14 +29,14 @@ const Marque = () => {
                 gradientColor={[255, 255, 255]}
                 gradientWidth={100}
                 speed={50}
-                className="text-[#751916] font-bold text-xl "
+                className="text-[#75191648] font-bold text-xl "
             >
                 <div className="flex items-center space-x-16 px-4 overflow-hidden">
                     {marqueeItems.map((item, index) => (
                         <React.Fragment key={index}>
                             <span className="flex items-center overflow-hidden" style={{ color: item.color }}>
-                                <span className="text-[#cb3e3a]">{item.icon}</span>
-                                {item.text}
+                                <span className="text-[#cb3f3ace]">{item.icon}</span>
+                                <span className="text-[#cb3f3ad7]">{item.text}</span>
                             </span>
                             {index < marqueeItems.length - 1 && (
                                 <span

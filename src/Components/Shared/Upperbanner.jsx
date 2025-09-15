@@ -1,12 +1,12 @@
 const Upperbanner = () => {
     return (
-        <div className="lg:mx-20 my-3 lg:py-0 py-5 mb-6 flex lg:flex-row flex-col justify-between gap-y-5">
+        <div className="lg:px-20   bg-gradient-to-r from-[#923330bb] to-[#92333003] lg:py-5 py-5 flex lg:flex-row flex-col justify-between gap-y-5">
             {/* Left side: Title and image */}
             <div className="flex lg:flex-row flex-col lg:items-center items-center lg:text-start text-center gap-4">
                 <img
-                    src="https://i.ibb.co.com/B5S0j14n/Whats-App-Image-2025-09-14-at-23-33-58-e20612ec.jpg"
+                    src="https://i.ibb.co.com/YB47HP1S/Whats-App-Image-2025-09-15-at-00-29-00-5c07d262.jpg"
                     alt="University Logo"
-                    className="lg:w-32 w-64"
+                    className="lg:w-32 w-64 rounded-full"
                 />
                 <div className="flex flex-col justify-end">
                     <p className="lg:text-lg lg:block hidden text-2xl">ICERFEST-2026</p>

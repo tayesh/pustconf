@@ -64,7 +64,7 @@ const Submission = () => {
                         <div className="divider divider-error opacity-0 my-2 animate-slideInLeft animation-delay-300 "></div>
                         <div className="flex flex-col sm:flex-row items-center">
                             <p className="text-lg md:text-xl font-semibold mb-2 sm:mb-0 sm:ml-4">Microsoft CMT:</p>
-                            <a href="https://cmt3.research.microsoft.com/NCIM2025/" 
+                            <a href="" 
                                className="text-[#923330] text-lg md:text-xl font-bold py-1 md:py-2 px-3 md:px-4 rounded hover:underline animate-fadeIn">
                                 Click Here
                             </a>

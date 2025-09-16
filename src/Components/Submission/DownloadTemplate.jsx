@@ -64,7 +64,7 @@ const DownloadTemplate = () => {
                         <h3 className="card-title text-xl font-bold mb-2">Microsoft CMT Submission System</h3>
                         <p className="text-gray-600 mb-4">Submit your paper through our conference management system</p>
                         <a 
-                            href="https://cmt3.research.microsoft.com/NCIM2025/"
+                            href=""
                             className="btn btn-wide bg-[#923330] hover:bg-[#7a2a28] text-white border-none"
                         >
                             Go to Submission Portal

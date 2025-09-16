@@ -89,7 +89,7 @@ const CallPaper = () => {
                         <ul className="list-disc ml-10 text-base sm:text-lg text-justify">
                             <li>
                                 Each paper needs to be submitted electronically as a single PDF file through Microsoft CMT:
-                                <a className="font-bold text-[#923330] hover:underline" href="https://cmt3.research.microsoft.com/NCIM2025/" target="_blank" rel="noopener noreferrer"> Click Here</a>.
+                                <a className="font-bold text-[#923330] hover:underline" href="" target="_blank" rel="noopener noreferrer"> Click Here</a>.
                             </li>
                         </ul>
                     </div>

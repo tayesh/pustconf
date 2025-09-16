@@ -69,7 +69,7 @@ const Banner = () => {
         {/* Conference Acronym - Playfair Display */}
         <div className="relative inline-block mt-2 md:mt-4">
           <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center text-[#751916] rounded-tl-full rounded-br-full bg-white/50 px-6 sm:px-10 md:px-16 lg:px-20 py-1 md:py-2 font-bold tracking-wider relative z-10' style={{ fontFamily: "'Playfair Display', serif" }}>
-            ICERFEST-2026
+            ICERFEST 2026
           </h2>
 
           {/* Animated border element */}
